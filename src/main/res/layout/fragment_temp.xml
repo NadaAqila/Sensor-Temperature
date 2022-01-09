@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3D7378"
+    tools:context=".TempFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nama: Nada Aqila Mahmud"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:gravity="center_horizontal"
+            android:layout_marginBottom="50dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="NIM: 19.01.53.0100"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:gravity="center_horizontal"
+            android:layout_marginBottom="32dp"/>
+
+        <Button
+            android:id="@+id/btn_database"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Database"/>
+
+
+    </LinearLayout>
+
+</FrameLayout>
